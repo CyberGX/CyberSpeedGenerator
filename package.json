@@ -1,8 +1,8 @@
 {
   "name": "cyberspeed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CyberSpeed is your starting point for your next great web app",
-  "main": "index.js",
+  "main": "bin/cyberspeed-cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/CyberGX/CyberSpeedGenerator/issues"
   },
-  "homepage": "https://github.com/CyberGX/CyberSpeedGenerator#readme"
+  "homepage": "https://github.com/CyberGX/CyberSpeedGenerator#readme",
+  "dependencies": {
+    "commander": "^2.16.0",
+    "fs-extra": "^7.0.0"
+  }
 }

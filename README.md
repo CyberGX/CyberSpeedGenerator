@@ -31,7 +31,7 @@ Install dependencies:
 $ npm install
 ```
 
-Start your Express.js app at `http://localhost:8080/`:
+Start your Cyberspeed app at `http://localhost:8080/`:
 
 ```bash
 $ npm start
